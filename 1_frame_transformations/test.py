@@ -5,7 +5,7 @@ MATLAB
 ....
 
 Robotics Toolbox
-(Used these matlab functions to get the values of transformations)
+(Used these matlab functions to get the values of transformations for preparing the unit test cases)
 ---
 trvec2tform
 eul2tform
@@ -55,11 +55,11 @@ class TestTransformations(unittest.TestCase):
                                           [0, 0, 0, 1.0000]])
         
         r, p, y = tr2rpy(transformation)
-        angles = np.array([r,p,y])
+        cal_angles = np.array([r,p,y])
 
         actual_angles = np.array([np.pi/3, np.pi/3, np.pi/3])
 
-        np.testing.assert_almost_equal(actual_angles,angles, decimal=4)
+        np.testing.assert_almost_equal(actual_angles,cal_angles, decimal=4)
 
 
 

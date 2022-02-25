@@ -3,6 +3,8 @@ from matplotlib import projections
 import matplotlib.pyplot as plt
 import numpy as np
 from mpl_toolkits.mplot3d import axes3d
+
+
 # u = np.array([3,0,0])
 # v = np.array([0,3,0])
 # q = np.array([0,0,3])
