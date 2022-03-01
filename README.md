@@ -15,7 +15,7 @@ This repository has all the code that is required  to study robotics kinematics 
 
 
 
-## Lessons Learned
+## Learning
 
 - The best thing that I have learnt the practical implementation of OOPs. I have used the different concepts of OOps like inheritance, private variable, class methods, encaplustion and so many.
 
